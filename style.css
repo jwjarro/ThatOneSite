@@ -2,6 +2,7 @@ body {
     background-image: url("assets/Lake.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 120vh;
     background-repeat: no-repeat;
 }
@@ -21,6 +22,12 @@ h1 {
 
 h2 {
     color: white;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .bookmark {
